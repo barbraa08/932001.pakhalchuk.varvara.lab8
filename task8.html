@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="windows-1251">
+	<title>Lab 8</title>
+	<link rel="stylesheet" href="style8.css">
+</head>
+<body>
+    <main>
+        <div class="list">
+            <div class="line">
+                <input type="text">
+                <!--
+            -->
+                <input type="text">
+                <!--
+            -->
+                <button onclick="MoveUp(this)">↑</button>
+                <!--
+            -->
+                <button onclick="MoveDown(this)">↓</button>
+                <!--
+            -->
+                <button onclick="RemoveLine(this)">x</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button onclick="AddLine(1)">Добавить элемент</button><br>
+            <button onclick="GetJSON()">Сохранить</button>
+        </div>
+        <div class="output"></div>
+    </main>
+	<script src="script8.js"></script>
+	</body>
+	</html>
